@@ -23,8 +23,8 @@
 
   set bg=dark
 
-  "set t_Co=256
-  "colorscheme desert256
+  set t_Co=256
+  colorscheme desert256
   highlight Cursor guifg=white guibg=white
 
 " Indentation
