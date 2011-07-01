@@ -1,3 +1,7 @@
+" Pathogen
+  call pathogen#runtime_append_all_bundles()
+  call pathogen#helptags()
+
 " Filetype etc
   filetype plugin indent on
     
@@ -19,8 +23,8 @@
 
   set bg=dark
 
-  set t_Co=256
-  colorscheme desert256
+  "set t_Co=256
+  "colorscheme desert256
   highlight Cursor guifg=white guibg=white
 
 " Indentation
