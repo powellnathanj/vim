@@ -1,0 +1,5 @@
+Trying to manage my vim files using git(hub)
+
+Use a symlink after cloning
+
+ln -s ~/.vim/vimrc ~/.vimrc
