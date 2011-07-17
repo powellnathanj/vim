@@ -37,6 +37,9 @@
 " Toggle paste
   set pastetoggle=<F8>
 
+" Toggle hidden chars with ,l
+  nmap <leader>l :set list!<CR>
+
 " Allows buffers to be back grounded without being written
   set hidden
 
