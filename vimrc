@@ -34,8 +34,7 @@
   set softtabstop=2
   set smartindent
 
-" Toggle paste
-  set pastetoggle=<F8>
+  set paste
 
 " Toggle hidden chars with ,l
   nmap <leader>l :set list!<CR>
@@ -49,6 +48,7 @@
 " Done together, unless you specify case, case doesn't matter
   set ignorecase 
   set smartcase
+  set incsearch
 
 " Set the title
   set title
@@ -102,4 +102,5 @@ command! Bclose call <SID>BufcloseCloseIt()
 autocmd BufRead,BufNewFile   Makefile set noexpandtab
 
 " set us up the arduino
-au BufNewFile,BufRead *.pde setf arduino
+au BufRead,BufNewFile *.pde set filetype=arduino
+au BufRead,BufNewFile *.ino set filetype=arduino
