@@ -39,6 +39,9 @@
 " Toggle hidden chars with ,l
   nmap <leader>l :set list!<CR>
 
+" No highlight
+  nmap <leader><leader> :noh<CR>
+
 " Allows buffers to be back grounded without being written
   set hidden
 
@@ -48,7 +51,6 @@
 " Done together, unless you specify case, case doesn't matter
   set ignorecase 
   set smartcase
-  set incsearch
 
 " Set the title
   set title
@@ -78,6 +80,7 @@ function! <SID>BufcloseCloseIt()
     let l:alternateBufNum = bufnr("#")
  
     if buflisted(l:alternateBufNum)
+  set pastetoggle=<F8>
         buffer #
     else
         " this try-catch block is disgusting
