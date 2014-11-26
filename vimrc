@@ -106,3 +106,5 @@ autocmd BufRead,BufNewFile   Makefile set noexpandtab
 " set us up the arduino
 au BufRead,BufNewFile *.pde set filetype=arduino
 au BufRead,BufNewFile *.ino set filetype=arduino
+
+au BufRead,BufNewFile *.go set filetype=go
