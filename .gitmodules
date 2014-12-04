@@ -10,3 +10,6 @@
 [submodule "bundle/puppet"]
 	path = bundle/puppet
 	url = git://github.com/rodjek/vim-puppet.git
+[submodule "bundle/openhab"]
+	path = bundle/openhab
+	url = https://github.com/cyberkov/openhab-vim.git
