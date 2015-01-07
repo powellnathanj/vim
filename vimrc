@@ -108,3 +108,4 @@ au BufRead,BufNewFile *.pde set filetype=arduino
 au BufRead,BufNewFile *.ino set filetype=arduino
 
 au BufRead,BufNewFile *.go set filetype=go
+au BufRead,BufNewFile Vagrantfile set filetype=ruby
