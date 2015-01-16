@@ -109,3 +109,6 @@ au BufRead,BufNewFile *.ino set filetype=arduino
 
 au BufRead,BufNewFile *.go set filetype=go
 au BufRead,BufNewFile Vagrantfile set filetype=ruby
+
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
