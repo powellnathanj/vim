@@ -111,5 +111,7 @@ au BufRead,BufNewFile *.go set filetype=go
 au BufRead,BufNewFile Vagrantfile set filetype=ruby
 au BufRead,BufNewFile *.tf set filetype=ruby
 
+autocmd BufNewFile,BufRead *.json set filetype=javascript
+
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
