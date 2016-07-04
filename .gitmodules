@@ -16,3 +16,6 @@
 [submodule "bundle/vim-swift"]
 	path = bundle/vim-swift
 	url = git://github.com/toyamarinyon/vim-swift.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
