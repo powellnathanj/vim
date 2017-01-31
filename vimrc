@@ -20,11 +20,7 @@
 " Colorize me
   syntax enable
 
-  set bg=dark
-
-  set t_Co=256
-  colorscheme desert256
-  highlight Cursor guifg=white guibg=white
+  colorscheme desert
 
 " Indentation
   set et
@@ -32,8 +28,6 @@
   set tabstop=2
   set softtabstop=2
   set smartindent
-
-  set paste
 
 " Toggle hidden chars with ,l
   nmap <leader>l :set list!<CR>
