@@ -23,11 +23,11 @@
   set bg=dark
 
   set t_Co=256
-  colorscheme desert256
+  colorscheme desert
   highlight Cursor guifg=white guibg=white
 
 " Indentation
-  set et
+  set expandtab
   set shiftwidth=2
   set tabstop=2
   set softtabstop=2
