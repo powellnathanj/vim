@@ -33,8 +33,6 @@
   set softtabstop=2
   set smartindent
 
-  set paste
-
 " Toggle hidden chars with ,l
   nmap <leader>l :set list!<CR>
 
